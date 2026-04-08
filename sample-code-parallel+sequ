@@ -1,46 +1,40 @@
 pipeline {
-	agent any
+    agent any
 
-stages {
-	stage ('Parallel'){
-		parallel {
-			stage	('Stage-1')
-			{
-				steps{
-				echo "DevOps with rushi!"
-				sleep 5
-				}
-			}	
-			stage	('Stage-2')
-			{
-				steps{
-				echo "Happy Learning!!"
-				sleep 5
-				}
-			}
-			stage	('Stage-3')
-			{
-				steps{
-				echo "Stay Connected!!"
-				sleep 5
-				}
-			}	
-	
+    stages {
+        stage('Parallel') {
+            parallel {
+                stage('Stage-1') {
+                    steps {
+                        echo "DevOps with rushi!"
+                        sleep 5
+                    }
+                }
+                stage('Stage-2') {
+                    steps {
+                        echo "Happy Learning!!"
+                        sleep 5
+                    }
+                }
+                stage('Stage-3') {
+                    steps {
+                        echo "Stay Connected!!"
+                        sleep 5
+                    }
+                }
+            }
+        }
 
-		}
-	}
-	stage(Sequential-1)
-	{
-	  steps {
-		echo "This is sequential stage 1."
-	  }
-	}
-	
-	stage(Sequential-2)
-	{
-	  steps {
-		echo "This is sequential stage 2."
-	  }
-	}
-  }
+        stage('Sequential-1') {
+            steps {
+                echo "This is sequential stage 1."
+            }
+        }
+
+        stage('Sequential-2') {
+            steps {
+                echo "This is sequential stage 2."
+            }
+        }
+    }
 }
