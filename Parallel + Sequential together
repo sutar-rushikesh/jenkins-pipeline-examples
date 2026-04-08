@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Run Together') {
+            parallel {
+
+                // Branch 1
+                stage('Stage-1') {
+                    steps {
+                        echo "Parallel Job 1"
+                        sleep 5
+                    }
+                }
+
+                // Branch 2
+                stage('Stage-2') {
+                    steps {
+                        echo "Parallel Job 2"
+                        sleep 5
+                    }
+                }
+
+                // Branch 3 (Sequential flow inside script)
+                stage('Sequential-Flow') {
+                    steps {
+                        script {
+                            echo "Sequential 1"
+                            sleep 5
+
+                            echo "Sequential 2"
+                            sleep 5
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
