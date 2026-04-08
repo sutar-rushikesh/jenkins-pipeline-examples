@@ -158,20 +158,27 @@ Create a Jenkins Pipeline Job
 
 ---
 # 📚 Jenkins Dashboard
+
 <p align="center">
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 113544" src="https://github.com/user-attachments/assets/45654c36-6d5f-49f1-a6a2-3d21fba48fa9" />
 </p>
+
 sample-code-parallel
+
 <p align="center">
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 113833" src="https://github.com/user-attachments/assets/3263797d-dcab-4c39-952f-b41b6d0a43e0" />
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 113845" src="https://github.com/user-attachments/assets/f8a68fe6-5bfe-4afa-8b21-1df22c14377c" />
 </p>
+
 sample-code-parallel+Sequential
+
 <p align="center">
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 112852" src="https://github.com/user-attachments/assets/ea38ba61-173c-4208-81c6-d1b53b0136e2" />
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 112907" src="https://github.com/user-attachments/assets/7551b4d0-af04-41e5-b988-de6cc952af7e" />
 </p>
+
 Parallel + Sequential together
+
 <p align="center">
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 112816" src="https://github.com/user-attachments/assets/89c31310-1c11-4245-b917-25746cf555a3" />
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 112722" src="https://github.com/user-attachments/assets/d5ad3e70-e0c1-4495-b3ab-51ec48d0b524" />
@@ -179,9 +186,11 @@ Parallel + Sequential together
 </p>
 
 simple-website-hosting-pipeline
+
 <p align="center">
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 113605" src="https://github.com/user-attachments/assets/7ba7dfe8-df79-408c-9f90-3e7bcdd6d7c3" />
 <img width="1920" height="1080" alt="Screenshot 2026-04-08 113619" src="https://github.com/user-attachments/assets/2be8635b-4057-40ed-a2ec-9ed894ebbf35" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e4c4256f-b618-46d7-883a-8153c4ca6b58" />
 </p>
 
 
